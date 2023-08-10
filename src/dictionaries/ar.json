@@ -1,0 +1,36 @@
+{
+  "layout": {
+    "header": {
+      "links": {
+        "home": "الرئيسية",
+        "products": "المنتجات",
+        "pricing": "الأسعار",
+        "about": "من نحن",
+        "contact": "تواصل معنا"
+      }
+    }
+  },
+  "auth": {
+    "login": "دخول",
+    "register": "إنشاء الحساب"
+  },
+  "home-page": {
+    "title": "الصفحة الرئيسية"
+  },
+  "about-page": {
+    "title": "من نحن"
+  },
+  "contact-page": {
+    "title": "تواصل معنا"
+  },
+  "pricing-page": {
+    "title": "الأسعار"
+  },
+  "products-page": {
+    "title": "المنتجات",
+    "product-card": {
+      "add-to-cart": "إضافة للسلة",
+      "product-details": "تفاصيل المنتج"
+    }
+  }
+}

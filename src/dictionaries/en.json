@@ -1,0 +1,36 @@
+{
+  "layout": {
+    "header": {
+      "links": {
+        "home": "home",
+        "products": "products",
+        "pricing": "pricing",
+        "about": "about",
+        "contact": "contact"
+      }
+    }
+  },
+  "auth": {
+    "login": "login",
+    "register": "register"
+  },
+  "home-page": {
+    "title": "home page"
+  },
+  "about-page": {
+    "title": "about us"
+  },
+  "contact-page": {
+    "title": "contact us"
+  },
+  "pricing-page": {
+    "title": "pricing"
+  },
+  "products-page": {
+    "title": "Products",
+    "product-card": {
+      "add-to-cart": "add to cart",
+      "product-details": "product details"
+    }
+  }
+}
