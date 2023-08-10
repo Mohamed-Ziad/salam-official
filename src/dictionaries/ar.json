@@ -1,4 +1,5 @@
 {
+  "website_name": "سلام",
   "layout": {
     "header": {
       "links": {
@@ -21,7 +22,15 @@
     "title": "من نحن"
   },
   "contact-page": {
-    "title": "تواصل معنا"
+    "title": "تواصل معنا",
+    "contact-form": {
+      "first_name": "الاسم الأول",
+      "last_name": "الاسم الأخير",
+      "email": "عنوان البريد الإلكتروني",
+      "phone_number": "رقم الجوال",
+      "how_help_you": "كيف يمكننا مساعدتك؟",
+      "submit": "إرسال"
+    }
   },
   "pricing-page": {
     "title": "الأسعار"

@@ -1,4 +1,5 @@
 {
+  "website_name": "Salam",
   "layout": {
     "header": {
       "links": {
@@ -15,16 +16,24 @@
     "register": "register"
   },
   "home-page": {
-    "title": "home page"
+    "title": "Home Page"
   },
   "about-page": {
-    "title": "about us"
+    "title": "About Us"
   },
   "contact-page": {
-    "title": "contact us"
+    "title": "Contact Us",
+    "contact-form": {
+      "first_name": "first name",
+      "last_name": "last name",
+      "email": "email address",
+      "phone_number": "phone number",
+      "how_help_you": "how we can help you?",
+      "submit": "send"
+    }
   },
   "pricing-page": {
-    "title": "pricing"
+    "title": "Pricing"
   },
   "products-page": {
     "title": "Products",

@@ -1,6 +1,7 @@
 import LocaleSwitcher from '@/layout/LocalSwitcher'
 import { getDictionary } from '../../get-dictionary'
 import { Locale } from '../../i18n-config'
+import { Metadata } from 'next'
 
 export default async function Home({
   params: { lang },
@@ -23,4 +24,19 @@ export default async function Home({
       </div>
     </main>
   )
+}
+
+
+export async function generateMetadata({
+  params: { lang },
+}: {
+  params: { lang: Locale }
+}
+): Promise<Metadata> {
+
+  const dictionary = await getDictionary(lang)
+
+  return {
+    title: `${dictionary.website_name} - ${dictionary['home-page'].title}`,
+  }
 }
