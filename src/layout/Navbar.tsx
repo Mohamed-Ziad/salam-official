@@ -29,8 +29,8 @@ export default function Header(props: IProps) {
           <Nav className={props.lang === "ar" ? 'me-auto' : 'ms-auto'}>
             <Link className="nav-link" href={`/${props.lang}`}>{links.home}</Link>
             <Link className="nav-link" href={`/${props.lang}/products`}>{links.products}</Link>
-            <Link className="nav-link" href={`/${props.lang}/pricing`}>{links.pricing}</Link>
-            <Link className="nav-link" href={`/${props.lang}/about`}>{links.about}</Link>
+            {/* <Link className="nav-link" href={`/${props.lang}/pricing`}>{links.pricing}</Link> */}
+            {/* <Link className="nav-link" href={`/${props.lang}/about`}>{links.about}</Link> */}
             <Link className="nav-link" href={`/${props.lang}/contact`}>{links.contact}</Link>
           </Nav>
           <div className="d-flex">
