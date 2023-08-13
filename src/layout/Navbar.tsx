@@ -36,7 +36,7 @@ export default function Header(props: IProps) {
           <div className="d-flex">
             <Link className="btn btn-outline-light rounded-pill" href={ changeLang}>{currentLang === "ar" ? "العربية" : "English"}</Link>
             <Button variant="outline-light" className="mx-2 rounded-pill">{auth.login}</Button>
-            <Button variant="light" className="rounded-pill">{auth.register}</Button>
+            <Link href="/auth/register" className="rounded-pill btn btn-light">{auth.register}</Link>
           </div>
         </Navbar.Collapse>
       </Container>
