@@ -13,7 +13,15 @@
   },
   "auth": {
     "login": "دخول",
-    "register": "إنشاء الحساب"
+    "register": "إنشاء حساب",
+    "facebook-register": "سجل بإستخدام فيسبوك",
+    "google-registe": "سجل بإستخدام جوجل",
+    "facebook-login": "دخول بإستخدام فيسبوك",
+    "google-login": "دخول بإستخدام جوجل",
+    "username": "اسم المستخدم",
+    "email": "عنوان البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirm-password": "تأكيد كلمة المرور"
   },
   "home-page": {
     "title": "الصفحة الرئيسية"

@@ -13,7 +13,15 @@
   },
   "auth": {
     "login": "login",
-    "register": "register"
+    "register": "register",
+    "facebook-register": "register with facebook",
+    "google-registe": "register with google",
+    "facebook-login": "login with facebook",
+    "google-login": "login with google",
+    "username": "username",
+    "email": "email address",
+    "password": "password",
+    "confirm-password": "confirm password"
   },
   "home-page": {
     "title": "Home Page"

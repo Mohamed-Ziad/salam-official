@@ -34,9 +34,9 @@ export default function Header(props: IProps) {
             <Link className="nav-link" href={`/${props.lang}/contact`}>{links.contact}</Link>
           </Nav>
           <div className="d-flex">
-            <Link className="btn btn-outline-light rounded-pill" href={ changeLang}>{currentLang === "ar" ? "العربية" : "English"}</Link>
-            <Button variant="outline-light" className="mx-2 rounded-pill">{auth.login}</Button>
-            <Link href="/auth/register" className="rounded-pill btn btn-light">{auth.register}</Link>
+            <Link className="btn btn-outline-light rounded-pill mx-3" href={changeLang}>{currentLang === "ar" ? "العربية" : "English"}</Link>
+            {/* <Button variant="outline-light" className="mx-2 rounded-pill">{auth.login}</Button> */}
+            <Link href="/auth/auth" className="rounded-pill btn btn-light">{auth.login}</Link>
           </div>
         </Navbar.Collapse>
       </Container>
